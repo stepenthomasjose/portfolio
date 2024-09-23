@@ -1,0 +1,297 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+}
+/*...logo....*/
+.logo{
+    font-size: 30px;
+    font-family: "Protest Guerrilla", sans-serif;
+    padding: 1.2rem;
+    text-align: center;
+    color: rgb(43, 106, 161);
+}
+
+.nav-right{
+    display: flex;
+    width: min-content;
+    align-items: center;
+    list-style-type: none;
+    font-weight: 600;
+} 
+
+.list{
+    margin: 1rem;
+    text-decoration: none;
+    color: rgb(18, 65, 105);
+    font-family: "Poppins", sans-serif;
+}
+.list:hover{
+    color: orange;
+    text-decoration: underline;
+}
+/*nav-bar------------------------------------- end*/
+
+
+
+.section{
+    width: 35%;
+    margin-top: 15%;
+    margin-left: 50px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+#fname{
+    color: rgb(46, 116, 177);
+
+}
+.lname{
+    
+    color: orange;
+}
+#para{
+  
+    line-height: 1.2rem;
+    padding-top: 10px;
+    color: rgb(46, 116, 177);
+   
+}
+
+.btn{
+    
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+.main-img{
+    width: 50%;
+    position: absolute;
+    right: 0px;
+    top: 100px;
+    bottom: 0px;
+}
+
+.group1{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0px;
+}
+
+ #shape{
+margin-left: -95px;
+
+}
+
+.main-img:hover #shape{
+    bottom: 10px;
+}
+
+.main-img:hover #boy{
+    left: 30%;
+}
+
+.content{
+    margin-top: 200px;
+    text-align: center;
+}
+
+.content{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+
+
+#details{
+    color: orange;
+}
+.details{
+    color:rgb(46, 116, 177); 
+}
+
+.container{
+    display: flex;
+}
+
+.about-img{
+    width: 500px;
+    height: 350px;
+    margin-top: 40px;
+}
+
+#vector{
+    width: 100%;
+    height: 100%;
+    border: rgb(46, 116, 177) 5px solid;
+    border-radius: 10px;
+}
+
+.user-details{
+    margin-top: 40px;
+    width: 45%;
+    line-height: 1.7rem;
+    font-family: "Poppins", sans-serif;
+    margin-left: 50px;
+}
+
+.content-2{
+    margin-top: 65px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+
+.skillcontent{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 2rem;
+    margin-top: 30px;
+}
+
+.bars{
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 1rem 0px;
+    margin-left: 20px;
+}
+
+.mainhead,.barpercentage{
+    font-weight: 500px;
+    font-size: 1.3rem;
+}
+
+.basebar{
+    width: 100%;
+    height: 0.5rem;
+    background-color: orange;
+    border-radius: 10px;
+    position:absolute;
+    bottom: 0px;
+}
+
+.htmlbar{
+    background-color:  rgb(43, 106, 161);
+    width: 89%;
+}
+
+.cssbar{
+    background-color:  rgb(43, 106, 161);
+    width: 84%;
+}
+
+.jsbar{
+    background-color:  rgb(43, 106, 161);
+    width: 80%;
+}
+
+.reactbar{
+    background-color:  rgb(43, 106, 161);
+    width: 75%;
+}
+
+.myskill{
+    border: orange 5px solid;
+    border-radius: 10px;
+
+}
+
+.icon-collections{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.brands{
+    color: black;
+    font-size: 2rem;
+}
+
+.icon:hover{
+    background-image: linear-gradient(to bottom right, rgb(39, 107, 162),orange);
+}
+
+.icon:hover .brands{
+    color: white;
+    animation: rotate 3s;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(60deg);
+       
+    }
+
+    20%{
+        transform: rotate(-60deg);
+        
+    }
+
+    40%{
+        transform: rotate(60deg);
+        
+    }
+
+    60%{
+        transform: rotate(-60deg);
+        
+    }
+
+    80%{
+        transform: rotate(60deg);
+        
+    }
+
+    100%{
+        transform: rotate(-60deg);
+        
+    }
+
+}
+
+footer{
+    margin-top: 8%;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.uparrow{
+    float: right;
+    font-size: 30px;
+    margin-top: -35px;
+    margin-right: 10px;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
